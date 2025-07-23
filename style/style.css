@@ -28,6 +28,13 @@
   color: #252432;
   font-weight: 400;
 }
+.dark3{
+ color: #111111;
+ font-size: 22px;
+}
+.doller{
+  font-weight: 700;
+}
 i{
   margin-left: 10px;
 }
@@ -38,7 +45,16 @@ i{
 span{
   color: #E95A08;
 }
+.btn{
+  background-color: #E95A08;
 
+ padding: 12px 50px 12px 50px;
+
+  color: white;
+  font-weight: 700;
+  border: none;
+  width: 270px;
+}
 
 
 /* heading section desing */
@@ -80,4 +96,44 @@ line-height: 89px;
 .image{
 margin-bottom: 70px;
   
+}
+
+/* main sectioner 2nd part desing */
+.Plant-shop{
+  padding: 0px 126px;
+  text-align: center;
+  margin-top: 30px ;
+  
+}
+.Plant-shop h2{
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 69px;
+  
+}
+
+.Plant-shop p{
+  margin-top: 16px;
+  font-size: 22px;
+  font-weight: 400px;
+  
+
+}
+.card-section{
+
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  gap: 20px;
+  text-align: center;
+}
+.card1{
+  text-align: center;
+}
+.card1 p{
+  margin-top: 10px;
+}
+.btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
