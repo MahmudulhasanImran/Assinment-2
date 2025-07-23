@@ -35,6 +35,13 @@ i{
   width: 1140px;
   margin: auto;
 }
+span{
+  color: #E95A08;
+}
+
+
+
+/* heading section desing */
 nav{
   display: flex;
   justify-content: space-between;
@@ -50,4 +57,27 @@ text-decoration: none;
 }
 li a{
   text-decoration: none;
+}
+
+/* main section er 1st part design */
+.contain{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.contain1 h2{
+  font-size: 65px;
+  font-weight: 700;
+line-height: 89px;
+}
+.contain1 p{
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 20px;
+ 
+}
+.image{
+margin-bottom: 70px;
+  
 }
