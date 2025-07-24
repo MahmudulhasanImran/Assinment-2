@@ -9,17 +9,19 @@
 /* comon style */
 
 .inter-font{
-   font-family: "Inter", sans-serif;;
+   font-family: "Inter", sans-serif;
 }
 .noto-font{
     font-family: "Noto Serif", serif;
 }
 .dark{
   color: #8987A1;
+   font-family: "Inter", sans-serif;
 }
 .dark1{
   color: #00000080;
   opacity: 50%;
+  font-family: "Inter", sans-serif;
 }
 .black{
   color: black;
@@ -27,13 +29,16 @@
 .dark2{
   color: #252432;
   font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 .dark3{
  color: #111111;
  font-size: 22px;
+ font-family: "Inter", sans-serif;
 }
 .doller{
   font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 i{
   margin-left: 10px;
@@ -63,7 +68,7 @@ nav{
   justify-content: space-between;
   align-items: center;
 }
-ul,li{
+.head-style ul,.head-style li{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -136,4 +141,40 @@ margin-bottom: 70px;
 .btn{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+.contain3{
+  display: flex;
+  gap: 70px;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.Store-contain{
+  margin-top: 38px;
+}
+.Store-contain h2{
+  font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+text-align: left;
+
+}
+.Store-contain li {
+  font-size: 21px;
+font-weight: 400;
+margin-top: 30px;
+margin-left: 30px;
+
+}
+
+.Flower-store{
+  position: relative;
+}
+.trusted-bg{
+  width: 268px;
+  position: absolute;
+  background: transparent;
+left: 350px;
+ top: -98px;
 }
