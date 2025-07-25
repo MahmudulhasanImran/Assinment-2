@@ -67,14 +67,16 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
-.head-style ul,.head-style li{
+ .head-style ul,.head-style li{
   display: flex;
   align-items: center;
   justify-content: space-between;
   list-style: none;
   gap: 48px;
 text-decoration: none;
+margin-top: -7px;
 }
 li a{
   text-decoration: none;
@@ -120,9 +122,7 @@ margin-bottom: 70px;
 .Plant-shop p{
   margin-top: 16px;
   font-size: 22px;
-  font-weight: 400px;
-  
-
+  font-weight: 400px;  
 }
 .card-section{
 
@@ -326,12 +326,13 @@ overflow: hidden;
   align-items: center;
   gap: 110px;
 }
-.footer2 ul,li,a{
+.footer2,ul,li,a{
 margin-top: 30px;
-list-style: none;
+/* list-style: none; */
 text-decoration: none;
 color: #6B7280;
 }
+
 
 .icon{
   display: flex;
@@ -340,6 +341,167 @@ color: #6B7280;
   gap: 30px;
   margin-top: -160px;
   
+}
 
+@media screen and (max-width:576px){
+
+  .hero{
+    max-width: 100%;
+  }
+.home,.about,.shop {
+        display: none;
+        visibility: hidden;
+    }
+nav{
+  margin: 10px 0px;
+  padding:0px 10px;
+}
+.contain {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    /* margin-top: 100px; */
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+.image{
+  width: 100%;
+}
+.contain1{
+  width: 100%;
+  padding: 0px 20px;
+}
+.contain1 h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+}
+.contain1 p{ 
+  font-size: 14px;
+font-weight: 400;
+}
+.contain2{
+  width: 100%;
   
 }
+.card-section{
+  width: 100%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  gap: 10px;
+  padding: 0px 20px;
+}
+.card1{
+  width: 80%;
+}
+
+.contain2 h2{
+  font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+}
+
+.Plant-shop{
+  width: 100%;
+  padding: 0px 30px 0 30px;
+}
+.Plant-shop p{
+  font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+
+}
+.trusted-bg{
+  display: none;
+   visibility: hidden;
+}
+.contain3 {
+  width: 100%;
+  padding: 0px 20px;
+    display: flex;
+    gap: 70px;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.Store-contain{
+  width: 100%;
+  padding: 0px 10px;
+  margin-top: -30px;
+}
+.Store-contain h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+width: 400px;
+}
+.Store-contain p{
+  font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+}
+.flower-image{
+  width: 100%;
+}
+
+.contain4{
+  width: 100%;
+}
+.Plant-shop{
+  width: 100%;
+  padding: 0px 30px 0 30px;
+}
+.Plant-shop p{
+  font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+}
+.Collection-flower{
+  width: 100%;
+  display: grid;
+  grid-template-columns:1px;
+  position: relative;
+}
+.image1,.image2,.image3{
+  width: 400px;
+  margin: 0px 50px;
+  
+}
+.text,.text1{
+   display: none;
+   visibility: hidden;
+}
+.p1,.p2{
+   display: none;
+   visibility: hidden;
+}
+.contain5{
+  width: 100%;
+  height: 100vh;
+
+}
+.from-text{
+  width: 100%;
+  
+}
+
+.footer-section {
+  width: 100%;
+    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 20px;
+}
+.icon {
+   
+display: none;
+}
+    
+}
+    
+
+
